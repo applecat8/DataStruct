@@ -3,7 +3,9 @@ package com.applecat;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
-
+/**
+ * 二叉树
+ */
 public class BinTree {
 
     private final Node tree;
