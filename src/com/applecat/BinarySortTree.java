@@ -101,7 +101,7 @@ public class BinarySortTree {
     /**
      * 插入一个节点
      *
-     * @param value 插入结点的值
+     * @param value 待插入结点的值
      */
     public void insertNode(int value) {
         if (root == null) {
@@ -226,6 +226,9 @@ public class BinarySortTree {
         }
     }
 
+    /**
+     * 层序遍历
+     */
     public void levelOrder() {
 
         if (root == null) return;
@@ -262,7 +265,6 @@ public class BinarySortTree {
         Node deleteNode = sortTree.deleteNodeRe(15, sortTree.root);
         System.out.println("deleteNode = " + deleteNode);
         sortTree.preorderTraversal();
-
 
     }
 }

@@ -106,6 +106,8 @@ public class BinTree {
             if (remove.rightNode != null) queue.add(remove.rightNode);
         }
     }
+    
+
 
     public static void main(String[] args) {
         char[] values = {'A', 'B', 'C', 'D', 'E', 'F', 'G', '0', '0', 'H', '0', '0', 'I'};
