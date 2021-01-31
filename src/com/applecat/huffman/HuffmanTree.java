@@ -79,7 +79,5 @@ public class HuffmanTree {
     public static void main(String[] args) {
         int[] values = new int[]{2,4,3,6,7,8,5,1};
         HuffmanTree huffmanTree = new HuffmanTree(values);
-        String str = "i am 零零";
-        System.out.println(Arrays.toString(str.getBytes()));
     }
 }
